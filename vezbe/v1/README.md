@@ -29,7 +29,7 @@ using FormulaPtr = std::shared_ptr<Formula>;
 
 Zbog specifičnosti kompajlera, potrebno je prvo deklarisati strukture
 (bez definicija) pa uvesti alijase tipova i na kraju definisati
-svaku od navedenih struktura - za više detalja pogledati `v1/ar_1.1.cpp`.
+svaku od navedenih struktura - za više detalja pogledati `v1/main.cpp`.
 
 Za potrebe lakšeg rada sa ovakvom implementacijom, iskoristili smo dve
 klase iz C++ STL bibiloteke:

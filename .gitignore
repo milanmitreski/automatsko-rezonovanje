@@ -1,2 +1,7 @@
+# IDE/OS specifics
 .idea
 .DS_Store
+.vscode
+
+# Practice files
+**/practice.cpp

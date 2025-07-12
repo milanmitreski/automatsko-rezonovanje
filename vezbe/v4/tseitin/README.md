@@ -58,7 +58,7 @@ Konačno, Cajtinova CNF naše početne formule je:
     (s3 | ~s2) & (s3 | ~r) & (~s3 | s2 | r) & 
     (s4 | s1) & (s4 | ~s3) & (~s4 | ~s1 | s3)
 
-Pre nego što navedemo implementaciju ovakve transformacije, prokomentarišimo složenost ovakve transformacije: Broj novouvedenih slova jednak je složenosti formule (jer uvodimo novo slovo za svaki veznik). Pored toga, prilikom transformacija novouvedenih konjukata u CNF, dobija se CNF sa najviše 4 konjukta, pri čemu svaki konjukt ima najviše 3 literala u sebi. Dakle, broj konjukta u Cajtinovoj CNF biće proporcionalan složenosti početne formule (tj. uvećana za konstantni faktor). Ovim zaključujemo da smo eliminsali problem eksponencijalnog uvećanja formule, ali nismo dobili logički ekvivalentnu već samo formulu ekvizadovolivu polaznoj. Međutim, kako smo rekli, za potrebe određivanja zadovoljivosti formule, dovoljno je svesti je na CNF koji je ekvizadovoljiv toj formuli.
+Pre nego što navedemo implementaciju ovakve transformacije, prokomentarišimo složenost ovakve transformacije: Broj novouvedenih slova jednak je složenosti formule (jer uvodimo novo slovo za svaki veznik). Pored toga, prilikom transformacija novouvedenih konjukata u CNF, dobija se CNF sa najviše 4 konjukta, pri čemu svaki konjukt ima najviše 3 literala u sebi. Dakle, broj konjukta u Cajtinovoj CNF biće proporcionalan složenosti početne formule (tj. umnožena za konstantni faktor). Ovim zaključujemo da smo eliminsali problem eksponencijalnog uvećanja formule, ali nismo dobili logički ekvivalentnu već samo formulu ekvizadovolivu polaznoj. Međutim, kako smo rekli, za potrebe određivanja zadovoljivosti formule, dovoljno je svesti je na CNF koji je ekvizadovoljiv toj formuli.
 
 Implementacija:
 
