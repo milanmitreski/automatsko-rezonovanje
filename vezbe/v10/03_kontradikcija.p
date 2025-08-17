@@ -1,0 +1,1 @@
+fof(berberin, conjecture, ?[X]: ![Y]: (brije(X,Y) <=> ~brije(Y,Y))).
